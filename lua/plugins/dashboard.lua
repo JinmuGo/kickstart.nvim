@@ -63,7 +63,7 @@ return {
       elseif datetime >= 18 and datetime < 21 then
         mesg = '🌆 Hi, Good Evening 🌙'
       else
-        mesg = 'Hi, it\'s getting late, get some sleep 😴'
+        mesg = "Hi, it's getting late, get some sleep 😴"
       end
       return mesg
     end
